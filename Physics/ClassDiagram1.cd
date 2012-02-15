@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Physics.DragForce" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAABAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DragForce.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Physics.GravityForce" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAEABAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>GravityForce.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Physics.NBodyForce" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEgAAQAIABRRAAAAAAAEABAAAgAACEAAEABGAAAAgAA=</HashCode>
+      <FileName>NBodyForce.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Physics.QuadTreeNode" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIAAAAAAAAAACAACAEAAAAAAAACAAAAAAEBACAAAkAA=</HashCode>
+      <FileName>NBodyForce.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Physics.Particle" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIAAACAIAEQAQIAAAgACABAAgBAAEAAAgABiAAAAEAA=</HashCode>
+      <FileName>Particle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Physics.Simulation" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAhSEAAAICAADYBCAEIIAKAAQAAACICAIAAGBAAAIAE=</HashCode>
+      <FileName>Simulation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Physics.Spring" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAIAAAAAABGAAAAQgAAAAAAAAAA=</HashCode>
+      <FileName>Spring.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Physics.SpringForce" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABABAAAAAAAAAKAAAAAAAAAAAAgAAAAEAAFAA=</HashCode>
+      <FileName>SpringForce.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="Physics.IForce" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IForce.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="MS UI Gothic" Size="9" />
+</ClassDiagram>

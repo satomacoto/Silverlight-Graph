@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Graph>
+  <Nodes>
+    <Node>
+      <Name>1</Name>
+    </Node>
+    <Node>
+      <Name>2</Name>
+    </Node>
+    <Node>
+      <Name>3</Name>
+    </Node>
+    <Node>
+      <Name>4</Name>
+    </Node>
+    <Node>
+      <Name>5</Name>
+    </Node>
+  </Nodes>
+  <Links>
+    <Link>
+      <Source>1</Source>
+      <Target>2</Target>
+    </Link>
+    <Link>
+      <Source>1</Source>
+      <Target>3</Target>
+    </Link>
+    <Link>
+      <Source>2</Source>
+      <Target>4</Target>
+    </Link>
+    <Link>
+      <Source>2</Source>
+      <Target>5</Target>
+    </Link>
+  </Links>
+</Graph>

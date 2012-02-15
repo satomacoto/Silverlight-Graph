@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Physics", "Physics\Physics.csproj", "{6CADC7FC-5DC7-4ABC-B355-B0DCEFEEF507}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vis", "Vis\Vis.csproj", "{9C16A236-6B98-4FC1-A098-B39B6FF36F6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graph", "Graph\Graph.csproj", "{BB53D094-94EF-487D-AA30-B3AF5FC9DA3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graph.Web", "Graph.Web\Graph.Web.csproj", "{C1BA0028-2420-49BA-884F-240C629446B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CADC7FC-5DC7-4ABC-B355-B0DCEFEEF507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CADC7FC-5DC7-4ABC-B355-B0DCEFEEF507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CADC7FC-5DC7-4ABC-B355-B0DCEFEEF507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CADC7FC-5DC7-4ABC-B355-B0DCEFEEF507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C16A236-6B98-4FC1-A098-B39B6FF36F6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C16A236-6B98-4FC1-A098-B39B6FF36F6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C16A236-6B98-4FC1-A098-B39B6FF36F6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C16A236-6B98-4FC1-A098-B39B6FF36F6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB53D094-94EF-487D-AA30-B3AF5FC9DA3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB53D094-94EF-487D-AA30-B3AF5FC9DA3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB53D094-94EF-487D-AA30-B3AF5FC9DA3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB53D094-94EF-487D-AA30-B3AF5FC9DA3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1BA0028-2420-49BA-884F-240C629446B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1BA0028-2420-49BA-884F-240C629446B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1BA0028-2420-49BA-884F-240C629446B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1BA0028-2420-49BA-884F-240C629446B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

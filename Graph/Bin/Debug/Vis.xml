@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Vis</name>
+    </assembly>
+    <members>
+        <member name="M:Vis.Graph.AddEdgeFrameworkElement(System.Windows.FrameworkElement,System.Double,Physics.Particle,Physics.Particle)">
+            <summary>
+            Adds FrameworkElement edge.
+            </summary>
+            <param name="element"></param>
+            <param name="p1"></param>
+            <param name="p2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vis.Graph.AddEdgeLine(Physics.Particle,Physics.Particle)">
+            <summary>
+            Adds a line edge.
+            </summary>
+            <param name="p1"></param>
+            <param name="p2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vis.Graph.AddEdgePolygon(Physics.Particle,Physics.Particle)">
+            <summary>
+            Adds a polygon edge.
+            </summary>
+            <param name="p1"></param>
+            <param name="p2"></param>
+            <param name="style"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vis.Graph.AddNodeFrameworkElement(System.Windows.FrameworkElement,System.String,System.Double,System.Double)">
+            <summary>
+            Adds FrameworkElement node.
+            </summary>
+            <param name="element">FrameworkElement</param>
+            <param name="name"></param>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vis.Graph.AddNodeGridTextBlock(System.String,System.Double,System.Double)">
+            <summary>
+            Adds a Grid + TextBlock node.
+            </summary>
+            <param name="text"></param>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vis.Graph.AddNodeXaml(System.String,System.String,System.Double,System.Double)">
+            <summary>
+            Add a Xaml node.
+            </summary>
+            <param name="xaml"></param>
+            <param name="name"></param>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vis.Graph.Deserialize``1(System.String)">
+            <summary>
+            Deserializes JSON.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="jsonString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vis.Graph.LoadJson(System.String)">
+            <summary>
+            Load from JSON.
+            </summary>
+            <param name="jsonString"></param>
+        </member>
+        <member name="M:Vis.Graph.SetBounds(System.Double,System.Double)">
+            <summary>
+            Sets a bounding box for particles in this simulation.
+            </summary>
+            <param name="width"></param>
+            <param name="height"></param>
+        </member>
+        <member name="M:Vis.Graph.LoadXml(System.String)">
+            <summary>
+            Load from XML
+            </summary>
+            <example>
+            var text = @'
+            &lt;Nodes&gt;
+              &lt;Node Name="foo" /&gt;
+              &lt;Node Name="bar" Style="Max" /&gt;
+            &lt;/Nodes&gt;
+            &lt;Links&gt;
+              &lt;Link Source="foo" Target="bar" /&gt;
+            &lt;/Links&gt;';
+            LoadXml(text);
+            </example>
+            <param name="text"></param>
+        </member>
+        <member name="M:Vis.Graph.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="P:Vis.Graph.drag">
+            <summary>
+            The drag co-efficient.
+            </summary>
+        </member>
+        <member name="P:Vis.Graph.gravitation">
+            <summary>
+            The gravitational constant to use. Negative value produce a repulsive force.
+            </summary>
+        </member>
+        <member name="P:Vis.Graph.gx">
+            <summary>
+            The gravitational accelaration in the horizontal dimension.
+            </summary>
+        </member>
+        <member name="P:Vis.Graph.gy">
+            <summary>
+            The gravitational accelaration in the vertical dimension.
+            </summary>
+        </member>
+    </members>
+</doc>

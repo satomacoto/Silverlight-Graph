@@ -1,0 +1,96 @@
+﻿<UserControl x:Class="Graph.Graph"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <UserControl.Resources>
+        <ControlTemplate x:Key="userDefine" TargetType="Button">
+            <Grid>
+                <Rectangle Fill="#A04000"/>
+                <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+            </Grid>
+        </ControlTemplate>
+        <ControlTemplate x:Key="max" TargetType="Button">
+            <Grid>
+                <Rectangle Fill="#202080"/>
+                <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+            </Grid>
+        </ControlTemplate>
+        <ControlTemplate x:Key="more" TargetType="Button">
+            <Grid>
+                <Rectangle Fill="#6600CC" RadiusX="1" RadiusY="1"/>
+                <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+            </Grid>
+        </ControlTemplate>
+        <ControlTemplate x:Key="equal" TargetType="Button">
+            <Grid>
+                <Rectangle Fill="#808080" RadiusX="1" RadiusY="1"/>
+                <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+            </Grid>
+        </ControlTemplate>
+        <ControlTemplate x:Key="less" TargetType="Button">
+            <Grid>
+                <Rectangle Fill="#AAA0F0" RadiusX="1" RadiusY="1"/>
+                <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+            </Grid>
+        </ControlTemplate>
+        <Style x:Key="UserDefine" TargetType="Button">
+            <Setter Property="FontSize" Value="24" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="Template" Value="{StaticResource userDefine}" />
+        </Style>
+        <Style x:Key="Max" TargetType="Button">
+            <Setter Property="FontSize" Value="24" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="Template" Value="{StaticResource max}" />
+        </Style>
+        <Style x:Key="More" TargetType="Button">
+            <Setter Property="FontSize" Value="18" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="Template" Value="{StaticResource more}" />
+        </Style>
+        <Style x:Key="Equal" TargetType="Button">
+            <Setter Property="FontSize" Value="12" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="Template" Value="{StaticResource equal}" />
+        </Style>
+        <Style x:Key="Less" TargetType="Button">
+            <Setter Property="FontSize" Value="12" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="Template" Value="{StaticResource less}" />
+        </Style>
+        <Style x:Key="Edge" TargetType="Polygon">
+            <Setter Property="Fill" Value="#A0A0A0" />
+            <Setter Property="Stroke" Value="#A0A0A0" />
+        </Style>
+        <Style x:Key="Sequence" TargetType="Polygon">
+            <Setter Property="Points" Value="0,-2 0,2 100,0" />
+            <Setter Property="Fill" Value="#66FF00" />
+            <Setter Property="Stroke" Value="#66FF00" />
+        </Style>
+    </UserControl.Resources>
+
+    <Canvas x:Name="LayoutRoot" Background="White">
+        <StackPanel Width="60">
+            <Button x:Name="start" Click="start_Click" Content="Start" />
+            <Button x:Name="stop" Click="stop_Click" Content="Stop" />
+
+            <TextBlock>drag</TextBlock>
+            <Slider x:Name="drag" ValueChanged="drag_ValueChanged" 
+                Minimum="0" Maximum="1" Value="0.1" />
+
+            <TextBlock>repulsion</TextBlock>
+            <Slider x:Name="nbody" Grid.Row="2" Grid.Column="1" ValueChanged="nbody_ValueChanged" 
+                Minimum="-20" Maximum="0" Value="-3" IsDirectionReversed="True" />
+
+            <TextBlock Grid.Row="3" Grid.Column="0">gravity</TextBlock>
+            <Slider x:Name="gx" Grid.Row="3" Grid.Column="1" ValueChanged="gx_ValueChanged" 
+                Minimum="-0.1" Maximum="0.1" Value="0"/>
+            <Slider x:Name="gy" Grid.Row="4" Grid.Column="1" ValueChanged="gy_ValueChanged" 
+                Minimum="-0.1" Maximum="0.1" Value="0"/>
+        </StackPanel>
+    </Canvas>
+</UserControl>
